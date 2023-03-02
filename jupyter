@@ -10,4 +10,21 @@ jupyter notepad 시작법
 3.주피터 노트북 실행
   Anaconda에 jupyter notebook 입력
   
-  == 끝 ==
+ 
+
+단축키
+▶ Enter : 편집 모드
+▶ Ctrl + Enter : 셀 실행
+▶ Shfit + Enter : 셀 실행 후, 아래 셀 선택
+▶ Alt + Enter : 셀 실행 후, 아래 셀 삽입
+▶ Shfit + m : 아래 셀과 합치기
+▶ a : 셀 위에 새로운 셀 삽입
+▶ b : 셀 아래에 새로운 셀 삽입
+▶ x : 셀 잘라내기
+▶ c : 셀 복사하기
+▶ v : 셀 붙여넣기
+▶ f : 찾기 및 바꾸기
+▶ d, d : 셀 지우기
+▶ z : 지웠던 셀 되돌리기
+▶ m : 마크다운 변환
+▶ y : 코드 변환
