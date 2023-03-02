@@ -1,0 +1,13 @@
+jupyter notepad 시작법
+
+1.실행을 위한 Anaconda 설치 필요
+  https://www.anaconda.com/에서 본인의 OS에 맞는 프로그램 다운 실행
+
+
+2.데이터 저장을 위한 저장 경로 설정
+  Anaconda 실행후 cd C:\Users.... 형식으로 데이터 저장을 위한 경로 설정
+  
+3.주피터 노트북 실행
+  Anaconda에 jupyter notebook 입력
+  
+  == 끝 ==
