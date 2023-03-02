@@ -1,0 +1,15 @@
+import numpy as np # 
+import pandas as pd #데이터 프레임
+import matplotlib.pyplot as plt #그래픽
+import seaborn as sns #그래픽
+
+plt.style.use('seaborn') #seaborn 스타일로 설정
+sns.set(font_scale=2.5) #모든 font 2.5로 설정
+
+import missingno as msno #null데이터 보기 쉽게 설정
+
+import warnings # 경고 무시
+warnings.filterwarnings('ignore')
+
+%matplotlib inline 
+#새로운 창이 아닌 현재 노트북에 
