@@ -13,3 +13,6 @@ warnings.filterwarnings('ignore')
 
 %matplotlib inline 
 #새로운 창이 아닌 현재 노트북에 
+
+dtrain = pd.read_csv('/kaggle/input/titanic/train.csv')
+dtest = pd.read_csv('/kaggle/input/titanic/test.csv')
