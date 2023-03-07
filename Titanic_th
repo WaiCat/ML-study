@@ -41,3 +41,18 @@ bar_chart('Parch') #같이탄 1촌 가족수
 /
 bar_chart('Embarked') #탑승한 선착장
 /
+Name
+Mr : 0 Miss : 1 Mrs: 2 Others: 3
+/
+train.head(10) #이름에서의 결혼 여부 확인
+/
+train_test_data = [train, test] #이름에서 확인한 결혼 여부 Title로 작성및 기입
+
+for dataset in train_test_data:
+    dataset['Title'] = dataset['Name'].str.extract('([A-Za-z]+)\.', expand=False)
+/
+train['Title'].value_counts()
+/
+test['Title'].value_counts()
+/
+
