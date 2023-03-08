@@ -65,3 +65,7 @@ train.head()
 /
 bar_chart('Title')
 /
+train.drop('Name', axis=1, inplace=True) #이름 필요없으니 제거
+test.drop('Name', axis=1, inplace=True)
+/
+train.head()
