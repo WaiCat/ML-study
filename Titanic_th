@@ -69,3 +69,13 @@ train.drop('Name', axis=1, inplace=True) #이름 필요없으니 제거
 test.drop('Name', axis=1, inplace=True)
 /
 train.head()
+/
+Sex
+male:0, female:1
+/
+sex_mapping = {"male": 0, "female": 1}
+for dataset in train_test_data:
+    dataset['Sex'] = dataset['Sex'].map(sex_mapping)
+/
+bar_chart('Sex')
+/
