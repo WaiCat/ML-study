@@ -79,3 +79,21 @@ for dataset in train_test_data:
 /
 bar_chart('Sex')
 /
+Age
+/
+train.head(10)
+/
+#각 결혼여부 및 성별 반영후 평균 나잇값으로 Null값 채움
+train["Age"].fillna(train.groupby("Title")["Age"].transform("median"), inplace=True)
+test["Age"].fillna(test.groupby("Title")["Age"].transform("median"), inplace=True)
+/
+train.head(30)
+train.groupby("Title")["Age"].transform("median")
+/
+facet = sns.FacetGrid(train, hue="Survived",aspect=4)
+facet.map(sns.kdeplot,'Age',shade= True)
+facet.set(xlim=(0, train['Age'].max()))
+facet.add_legend()
+ 
+plt.show() 
+/
