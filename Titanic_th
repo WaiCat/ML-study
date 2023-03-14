@@ -104,3 +104,9 @@ for dataset in train_test_data:
 /
 train.head(10)
 /
+Cabin
+/
+train.head(10)
+/
+train.Cabin.value_counts()
+/
